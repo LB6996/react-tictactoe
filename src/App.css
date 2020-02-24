@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   background-color: grey;
+  padding: 5vh 0;
 }
 
 .Title {

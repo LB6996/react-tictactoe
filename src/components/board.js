@@ -8,7 +8,7 @@ flex-wrap: wrap;
 border: 2px solid black;
 width: 30vw;
 height: 60vh;
-margin: 100px;
+margin: 50px;
 `;
 
 const Board = ({board, handleClick}) => {

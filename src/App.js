@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Button } from 'reactstrap';
 import Board from './components/board';
 import './App.css';
+
 
 function App() {
    const [board, setBoard] = useState([
@@ -110,10 +112,10 @@ function App() {
    return (
       <div className='App'>
          <h1 className='Title'>Tic Tac Toe</h1>
+         <Button className='mb-5' color='primary' onClick={reset}>RESET</Button>
          <h1>{winner}</h1>    
          <h1>{draw}</h1>
          <Board board={board} handleClick={handleClick} />
-         <button onClick={reset}>RESET</button>
       </div>
    );
 }
